@@ -1,0 +1,22 @@
+body {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+}
+
+.jumbotron {
+    background-color: #337ab7;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+form {
+    margin-top: 20px;
+}
