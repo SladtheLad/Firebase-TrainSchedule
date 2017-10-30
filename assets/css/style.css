@@ -25,6 +25,7 @@ body {
 
 label {
     font-weight: inherit;
+    border-top: 2px solid #f9f9f9;
 }
 
 th {
