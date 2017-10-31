@@ -7,18 +7,22 @@ body {
     background-color: rgba(43, 1, 1, 0.7);
 }
 
+hr {
+    border-color: rgb(163, 163, 0);
+}
+
 .jumbotron {
-    border: 5px solid black;
+    border-bottom: 5px solid rgba(29, 29, 29, .85);
     background-color: #337ab7;
     padding: 100px;
-    background: url(../images/BTTF3.jpg) no-repeat center; 
+    background: url(../images/hd.png) no-repeat center; 
     background-size: cover;
-    color: white;
+    color: rgb(163, 163, 0);
     margin: 0;
 }
 
 .content {
-    background: url(../images/papyrus3.jpg) no-repeat center center fixed; 
+    background: url(../images/maxresdefault.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -32,13 +36,15 @@ body {
 
 .panel {
     font-size: 20px;
-    background-color: #28282a;
-    color: #f9f9f9;
+    border-color: rgb(163, 163, 0);
+    background: rgba(29, 29, 29, .85);
+    color: rgb(163, 163, 0);
 }
 
 .panel-default>.panel-heading {
     background-color: #28282a;
-    color: #f9f9f9;
+    color: rgb(163, 163, 0);
+    border-color: rgb(163, 163, 0);
 }
 
 .panel-title {
@@ -55,15 +61,17 @@ th {
 
 .btn {
     margin-top: 20px;
+    margin-bottom: 30px;
     font-size: 40px;
     padding: 40px 100px;
-    color: black;
-
+    border-color: rgb(163, 163, 0);
+    color: rgb(163, 163, 0);
+    background-color: rgba(29, 29, 29, .85);
 }
 
 .btn:hover {
     background: url(../images/sonic.png) no-repeat center center;
-    color: yellow;
+    color: rgba(255, 255, 0, 0.199);
 }
 
 .input-group {
@@ -73,9 +81,18 @@ th {
 
 form {
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 .form-control {
     padding: 6px 30px 6px 12px;
     font-size: 20px;
+    background-color: black;
+    color: rgb(163, 163, 0);
+    border: 1px solid rgb(163, 163, 0);
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 0 0 3px rgb(163, 163, 0);
 }
