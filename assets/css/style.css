@@ -55,14 +55,15 @@ th {
 
 .btn {
     margin-top: 20px;
-    font-size: 24px;
-    padding: 10px 45px;
+    font-size: 40px;
+    padding: 40px 100px;
+    color: black;
 
 }
 
 .btn:hover {
-    background-color: black;
-    color: white;
+    background: url(../images/sonic.png) no-repeat center center;
+    color: yellow;
 }
 
 .input-group {
