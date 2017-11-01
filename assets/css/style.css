@@ -59,6 +59,10 @@ th {
     font-weight: inherit;
 }
 
+.table>tbody>tr>td {
+    border-top: 1px solid rgb(163, 163, 0);
+}
+
 .btn {
     margin-top: 20px;
     margin-bottom: 30px;
