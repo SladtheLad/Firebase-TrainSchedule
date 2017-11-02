@@ -49,7 +49,7 @@ $(document).ready(function () {
         tRemainder = diffTime % frequency;
         minutesTillTrain = frequency - tRemainder;
         nextTrain = moment().add(minutesTillTrain, "minutes");
-        nextTrainFormatted = moment(nextTrain).format("hh:mm");
+        nextTrainFormatted = moment(nextTrain).format("hh:mm a");
 
         // Logs
         console.log(firstTimeConverted);
