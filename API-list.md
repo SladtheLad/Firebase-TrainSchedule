@@ -1,8 +1,8 @@
 # **Product API List**
-*Best Buy Product API:*
-  *https://bestbuyapis.github.io/api-documentation/#overview*
-   *Need API key*
-
+*Best Buy Product API:
+  *https://bestbuyapis.github.io/api-documentation/#overview
+   *Need API key
+   
 Indix Product API:
 https://www.indix.com/developers/product-api/
 Need account, limit search query
