@@ -43,7 +43,10 @@ $(document).ready(function () {
         frequency = $("#frequency-input").val().trim();
 
         //Converts the times
-        firstTimeConverted = moment(firstTrainTime, "hh:mm").subtract(1, "days");
+        firstTimeConverted = moment(firstTrainTime, "hh:mm").subtract(1, "days"); 
+        //I honestly don't understand the convention for subtracting a year as your reference point, so I put in a day for shits and giggles
+        
+        
         currentTime = moment();
         diffTime = moment().diff(moment(firstTimeConverted), "minutes");
         tRemainder = diffTime % frequency;
