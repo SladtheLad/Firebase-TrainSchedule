@@ -1,5 +1,5 @@
 body {
-    font-family: 'VT323', monospace;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -21,7 +21,7 @@ hr {
     margin: 0;
 }
 
-.content {
+.background {
     background: url(../images/maxresdefault.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -51,8 +51,8 @@ hr {
     font-size: 34px;
 }
 
-label {
-    font-weight: inherit;
+table {
+    font-family: 'VT323', monospace;
 }
 
 th {
@@ -84,8 +84,13 @@ th {
 }
 
 form {
+    font-family: 'VT323', monospace;
     margin-top: 20px;
     padding-left: 20px;
+}
+
+label {
+    font-weight: inherit;
 }
 
 .form-control {
